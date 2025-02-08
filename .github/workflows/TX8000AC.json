@@ -1,0 +1,150 @@
+{
+    "description": "Betaflight VTX Config file",
+    "version": "1.0",
+    "vtx_table": {
+        "bands_list": [
+            {
+                "name": "BOSCAM_A",
+                "letter": "A",
+                "is_factory_band": true,
+                "frequencies": [
+                    5474,
+                    5492,
+                    5510,
+                    5528,
+                    5546,
+                    5564,
+                    5582,
+                    5600
+                ]
+            },
+            {
+                "name": "BOSCAM_B",
+                "letter": "B",
+                "is_factory_band": true,
+                "frequencies": [
+                    5362,
+                    5399,
+                    5436,
+                    5473,
+                    5510,
+                    5547,
+                    5584,
+                    5621
+                ]
+            },
+            {
+                "name": "BOSCAM_E",
+                "letter": "E",
+                "is_factory_band": true,
+                "frequencies": [
+                    5325,
+                    5348,
+                    5366,
+                    5384,
+                    5402,
+                    5420,
+                    5438,
+                    5456
+                ]
+            },
+            {
+                "name": "FATSHARK",
+                "letter": "F",
+                "is_factory_band": true,
+                "frequencies": [
+                    5129,
+                    5159,
+                    5189,
+                    5219,
+                    5249,
+                    5279,
+                    5309,
+                    5339
+                ]
+            },
+            {
+                "name": "RACEBAND",
+                "letter": "R",
+                "is_factory_band": true,
+                "frequencies": [
+                    4990,
+                    5020,
+                    5050,
+                    5080,
+                    5110,
+                    5140,
+                    5170,
+                    5200
+                ]
+            },
+            {
+                "name": "CUSTOM_P",
+                "letter": "P",
+                "is_factory_band": true,
+                "frequencies": [
+                    5333,
+                    5373,
+                    5413,
+                    5453,
+                    5493,
+                    5533,
+                    5573,
+                    5613
+                ]
+            },
+            {
+                "name": "CUSTOM_L",
+                "letter": "L",
+                "is_factory_band": true,
+                "frequencies": [
+                    4900,
+                    4940,
+                    4921,
+                    4958,
+                    4995,
+                    5032,
+                    5069,
+                    5099
+                ]
+            },
+            {
+                "name": "CUSTOM_U",
+                "letter": "U",
+                "is_factory_band": true,
+                "frequencies": [
+                    5960,
+                    5980,
+                    600,
+                    602,
+                    603,
+                    604,
+                    605,
+                    606
+                ]
+            }
+        ],
+        "powerlevels_list": [
+            {
+                "value": 0,
+                "label": "25 "
+            },
+            {
+                "value": 1,
+                "label": "1W "
+            },
+            {
+                "value": 2,
+                "label": "3W "
+            },
+            {
+                "value": 3,
+                "label": "5W "
+            },
+            {
+                "value": 4,
+                "label": "8W "
+            }
+        ]
+    }
+}
